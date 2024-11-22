@@ -16,13 +16,17 @@ import MainVue from '../features/vue/components/main/MainVue';
 
 import React from 'react';
 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route,Navigate} from 'react-router-dom';
 
 import HomePage from '../Pages/Home';
+
 
 const AppRoutes = () => {
   return (
     <Routes>
+    
+    <Route path="/" element={<Navigate to="/home" />} />
+          
       <Route path ="/home" element ={<HomePage /> } />
       
       <Route path="/frontend/html" element={<MainHtml />} />
