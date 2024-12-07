@@ -59,6 +59,12 @@ const NAVIGATION = [
       },
       { kind: 'divider' },
       {
+        segment: 'git',
+        title: 'git',
+        icon: <IconSwitcher language ="bootstrap" />,
+      },
+      { kind: 'divider' },
+      {
         segment: 'react',
         title: 'React',
         icon: <IconSwitcher language ="react" />,

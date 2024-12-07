@@ -15,7 +15,7 @@ export default function ImageStepper({ images, activeStep, handleNext, handleBac
       steps={maxSteps}
       position="static"
       activeStep={activeStep}
-      sx={{ boxShadow: 2, width: 200 }}
+      sx={{ boxShadow: 2}}
       nextButton={
         <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1}>
           {theme.direction === 'rtl' ? <KeyboardArrowLeft /> : <KeyboardArrowRight />}

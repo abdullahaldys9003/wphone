@@ -2,10 +2,11 @@
 import { createTheme } from '@mui/material/styles'; //1-import methoed
 const customTheme = createTheme({
   cssVariables: {
-    //<html data-toolpad-color-scheme="dark">
+
     colorSchemeSelector: 'data-toolpad-color-scheme',
   },
   colorSchemes: { light: true, dark: true },
+
   palette: {
     primary: {
       //لون الروابط والازرار
@@ -24,6 +25,9 @@ const customTheme = createTheme({
       hover: 'rgba(255, 255, 255, 0.7)', // لون الأيقونات عند التمرير
     },
   },
+
+
+
   breakpoints: {
     values: {
       xs: 0,
@@ -38,46 +42,3 @@ export default customTheme;
 
 
 
-
-
-
-/*
-import { createTheme } from '@mui/material/styles'; // 1-import method
-
-const customTheme = createTheme({
-  cssVariables: {
-    colorSchemeSelector: 'data-toolpad-color-scheme',
-  },
-  palette: {
-    mode: 'light', // تعيين الوضع الافتراضي إلى "light" أو "dark"
-  },
-  colorSchemes: {
-    light: {
-      palette: {
-        background: {
-          default: '#051C34',
-          paper: '#051C34',
-        },
-      },
-    },
-    dark: {
-      palette: {
-        background: {
-          default: '#051C34',
-          paper: '#051C34',
-        },
-      },
-    },
-  },
-  breakpoints: {
-    values: {
-      xs: 0,
-      sm: 600,
-      md: 900, // يمكن تعديل القيم حسب احتياجاتك
-      lg: 1200,
-      xl: 1536,
-    },
-  },
-});
-
-export default customTheme;*/

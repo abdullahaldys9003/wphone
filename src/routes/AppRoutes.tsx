@@ -14,6 +14,8 @@ import MainReact from '../features/react/components/Main/MainReact';
 
 import MainVue from '../features/vue/components/main/MainVue';
 
+import MainGit from '../features/Git/components/Main/MainGit';
+
 import React from 'react';
 
 import { Routes, Route,Navigate} from 'react-router-dom';
@@ -31,6 +33,8 @@ const AppRoutes = () => {
       
       <Route path="/frontend/html" element={<MainHtml />} />
 
+      <Route path="/frontend/git" element={<MainGit />} />
+      
       <Route path="/frontend/css" element={<MainCss />} />
       
         <Route path="/frontend/js" element={<MainJs />} />

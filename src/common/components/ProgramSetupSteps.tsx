@@ -90,7 +90,7 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { motion } from 'framer-motion'; // استيراد framer-motion
 
-export default function ProgramsSetupSteps({ steps, children }) {
+export default function ProgramsSetupSteps({children}) {
   const [activeStep, setActiveStep] = React.useState(0);
 
   const handleNext = () => {

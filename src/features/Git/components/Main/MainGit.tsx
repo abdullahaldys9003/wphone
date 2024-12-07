@@ -1,16 +1,13 @@
 import React from 'react';
-
-import StepsRunJs from '../StepsRunJs';
-
+import StepsRunGit from '../StepsRunGit';
 import Paper from '@mui/material/Paper';
 
 import Container from '@mui/material/Container';
 
-const MainJs = () => {
+const MainGit = () => {
   return (
-  <StepsRunJs  />
-
+     <StepsRunGit />
   )
 }
 
-export default MainJs;
+export default MainGit;

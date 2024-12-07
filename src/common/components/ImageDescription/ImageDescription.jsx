@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { motion } from 'framer-motion'; // استيراد مكتبة framer-motion
+import { motion } from 'framer-motion';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
@@ -14,19 +13,27 @@ export default function ImageDescription({ description }) {
 
   return (
     <motion.div
-      key={description} // إعادة تشغيل الحركة عند تغيير النص
+      key={description}
       initial="initial"
       animate="animate"
       exit="exit"
       variants={descriptionVariants}
-      transition={{ duration: 0.6, ease: "easeInOut" }} // تحسين الانتقال
+      transition={{ duration: 0.6, ease: "easeInOut" }}
     >
       <Box
-        boxShadow={4} // تعزيز الظل ليكون أقوى
+        boxShadow={4}
         p={3}
         my={3}
-        borderRadius={4} // إضافة زوايا دائرية
-        mx="auto" // توسيط العنصر
+        borderRadius={1}
+        mx="auto"
+        style={{
+          maxHeight: '200px', // تحديد الحد الأقصى للارتفاع
+          maxWidth: '300px', // تحديد الحد الأقصى للعرض
+          overflowY: 'auto', // إضافة شريط تمرير عمودي إذا لزم الأمر
+          overflowX: 'auto', // إضافة شريط تمرير أفقي إذا لزم الأمر
+          whiteSpace: 'normal', // السماح بتكسير النص عند الحاجة
+          wordBreak: 'break-word' // كسر الكلمات الطويلة إذا لزم الأمر
+        }}
       >
         <Typography variant="body1" color="textPrimary" align="center">
           {description}
