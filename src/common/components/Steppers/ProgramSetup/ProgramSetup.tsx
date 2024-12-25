@@ -3,7 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CodePreview from '../../../../common/components/Tabs/CodePreview/CodePreview.tsx';
+import CodePreview from '@common/components/Tabs/CodePreview/CodePreview.tsx';
 
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';

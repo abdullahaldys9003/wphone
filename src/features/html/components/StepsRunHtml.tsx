@@ -1,14 +1,15 @@
 import React from 'react';
 
-import ProgramSetup from '@common/components/Steppers/ProgramSetup/ProgramSetup.jsx';
+import ProgramSetup from '@common/components/ProgramSetup/ProgramSetup';
 
 
 import ProgramsSetupSteps from '@common/components/ProgramSetupSteps.tsx';
 
- import ProgramDownloadButton from '@common/components/ProgramDownload/ProgramDownloadButton';
+import ProgramDownloadButton from '@common/components/ProgramDownload/ProgramDownloadButton';
  
  import htmlData  from '../services/jsData';
 
+alert(htmlData);
 
  const steps = htmlData.map((index) => `Step ${index}`); // أو قم بتعريف الخطوات كما تراه مناسبًا
 
@@ -21,7 +22,7 @@ const ProgramSetupItem = React.memo(({ data }) => (
   />
 ));
 
-const StepsRunHtml = ({ name }) => {
+const StepsRunHtml = () => {
   return (
     <ProgramsSetupSteps steps={steps}>
       {htmlData.map((data, index) => (

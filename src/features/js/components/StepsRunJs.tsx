@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProgramSetup from '@common/components/Steppers/ProgramSetup/ProgramSetup.jsx';
+import ProgramSetup from '@common/components/Steppers/ProgramSetup/ProgramSetup.tsx';
 
 import Grid from '@mui/material/Grid';
 import ProgramsSetupSteps from '@common/components/ProgramSetupSteps.tsx';

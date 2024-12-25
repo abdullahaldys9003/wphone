@@ -1,5 +1,3 @@
-/*
-
 import React, { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -7,9 +5,10 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import CardHeaderSection from '../CardHeaderSection/CardHeaderSection';
-import ImageStepper from '../../ImageStepper/ImageStepper';
-import ImageDisplay from '../../ImageDisplay/ImageDisplay';
-import ImageDescription from '../../ImageDescription/ImageDescription';
+import ImageStepper from '../ImageStepper/ImageStepper.tsx';
+
+import ImageDisplay from '../ImageDisplay/ImageDisplay.tsx';
+import ImageDescription from '../ImageDescription/ImageDescription';
 
 export default function ProgramSetup({ images, d, name }) {
   const [activeStep, setActiveStep] = useState(0);
@@ -48,9 +47,9 @@ export default function ProgramSetup({ images, d, name }) {
     </Card>
   );
 }
-*/
 
 
+/*
 import React, { useState } from 'react';
 import { motion } from 'framer-motion'; // استيراد framer-motion
 import Card from '@mui/material/Card';
@@ -116,3 +115,4 @@ export default function ProgramSetup({ images, d, name }) {
     </Card>
   );
 }
+*/

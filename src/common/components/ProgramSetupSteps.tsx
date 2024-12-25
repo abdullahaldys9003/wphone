@@ -1,4 +1,4 @@
-/*
+
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
@@ -76,7 +76,7 @@ export default function ProgramsSetupSteps({ steps , children }) {
   );
 }
 
-*/
+/*
 
 
 import * as React from 'react';
@@ -127,7 +127,7 @@ export default function ProgramsSetupSteps({children}) {
               {step.label}
             </StepLabel>
             <StepContent>
-              {/* إضافة الحركة باستخدام framer-motion */}
+
               <motion.div
                 key={index}
                 initial="initial"
@@ -169,3 +169,4 @@ export default function ProgramsSetupSteps({children}) {
     </Box>
   );
 }
+*/
