@@ -5,11 +5,11 @@ import ProgramSetup from '@common/components/ProgramSetup/ProgramSetup';
 
 import ProgramsSetupSteps from '@common/components/ProgramSetupSteps.tsx';
 
+
 import ProgramDownloadButton from '@common/components/ProgramDownload/ProgramDownloadButton';
  
  import htmlData  from '../services/jsData';
 
-alert(htmlData);
 
  const steps = htmlData.map((index) => `Step ${index}`); // أو قم بتعريف الخطوات كما تراه مناسبًا
 
