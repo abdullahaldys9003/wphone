@@ -1,13 +1,11 @@
 import React from 'react';
-
 import ProgramSetup from '@common/components/ProgramSetup/ProgramSetup';
-
 
 import ProgramsSetupSteps from '@common/components/ProgramSetupSteps.tsx';
 
-
 import ProgramDownloadButton from '@common/components/ProgramDownload/ProgramDownloadButton';
- 
+
+
  import htmlData  from '../services/jsData';
 
 
