@@ -1,6 +1,6 @@
 
 import React,{useState}from 'react';
-//import customTheme from './them';
+import customTheme from './them';
 import IconButton from '@mui/material/IconButton';
 import TextField from '@mui/material/TextField';
 import Tooltip from '@mui/material/Tooltip';
@@ -67,10 +67,9 @@ function App() {
         logo :'',
         title:'',
       }}
-      //theme={customTheme} 
-      >
-       
 
+      >
+      
     <DashboardLayout slots={{ toolbarActions: ToolbarActionsSearch }}>
          <AppRoutes /> 
         </DashboardLayout>

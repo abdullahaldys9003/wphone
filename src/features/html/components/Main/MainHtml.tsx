@@ -1,7 +1,7 @@
 import React from 'react';
 import StepsRunHtml from '../StepsRunHtml';
 import Paper from '@mui/material/Paper';
-
+import ControlledOpenSpeedDial from '@common/components/ControlledOpenSpeedDial/ControlledOpenSpeedDial.tsx';
 import Container from '@mui/material/Container';
 
 const MainHtml = () => {
@@ -9,6 +9,7 @@ const MainHtml = () => {
     <>
    <Container maxWidth="md" sx={{ marginY: 4 }}>
       <Paper elevation={24} sx={{ padding: 0 }}>
+      
   </Paper>
 </Container>
 
@@ -24,6 +25,7 @@ const MainHtml = () => {
 >
   <StepsRunHtml name ="js" />
 </Paper>
+      <ControlledOpenSpeedDial />
 </Container>
     </>
   )

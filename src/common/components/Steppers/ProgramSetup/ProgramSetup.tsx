@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
+
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -21,7 +22,6 @@ import ImageStepper from '../ImageStepper/ImageStepper';
 import ImageDisplay from '../../ImageDisplay/ImageDisplay';
 
 //import ImageDescription from '../../ImageDescription/ImageDescription.jsx';
-
 
 
 

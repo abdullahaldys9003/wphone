@@ -21,10 +21,13 @@ export default function ImageDescription({ description }) {
       transition={{ duration: 0.6, ease: "easeInOut" }}
     >
       <Box
-        boxShadow={4}
+      
+        borderLeft='2px solid #1CC4DB'
+        borderRight='2px solid #1CC4DB'
+        boxShadow={6}
         p={3}
         my={3}
-        borderRadius={1}
+        borderRadius={5}
         mx="auto"
         style={{
           maxHeight: '200px', // تحديد الحد الأقصى للارتفاع
@@ -42,3 +45,6 @@ export default function ImageDescription({ description }) {
     </motion.div>
   );
 }
+
+
+

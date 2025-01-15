@@ -1,6 +1,9 @@
 import React from 'react';
 import ProgramSetup from '@common/components/ProgramSetup/ProgramSetup';
 
+
+
+
 import ProgramsSetupSteps from '@common/components/ProgramSetupSteps.tsx';
 
 import ProgramDownloadButton from '@common/components/ProgramDownload/ProgramDownloadButton';
@@ -16,7 +19,7 @@ const ProgramSetupItem = React.memo(({ data }) => (
   <ProgramSetup 
     images={data} 
     d={<ProgramDownloadButton program="acode" />}
-   name = "js"
+   name = "html"
   />
 ));
 
@@ -26,6 +29,7 @@ const StepsRunHtml = () => {
       {htmlData.map((data, index) => (
         <ProgramSetupItem key={index} data={data} />
       ))}
+
     </ProgramsSetupSteps>
   );
 };

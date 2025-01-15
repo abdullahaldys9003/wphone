@@ -5,7 +5,7 @@ const customTheme = createTheme({
 
     colorSchemeSelector: 'data-toolpad-color-scheme',
   },
-  colorSchemes: { light: true, dark: true },
+  colorSchemes: {light: true},
 
   palette: {
     primary: {
@@ -39,6 +39,9 @@ const customTheme = createTheme({
   },
 });
 export default customTheme;
+
+
+
 
 
 
